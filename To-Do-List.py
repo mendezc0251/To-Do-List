@@ -6,7 +6,7 @@ def display_menu():
     print("2. View Tasks")
     print("3. Remove Task")
     print("4. Exit")
-    choice = input("Enter your choice: ")
+    choice = int(input("Enter your choice: "))
     return choice
 def add_task(task):
        TDL = open("To-Do-List.txt", "a")
